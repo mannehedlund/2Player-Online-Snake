@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ProjectSnake</title>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body onload="">
+		<canvas id="canvas"></canvas>
+		<h1 id="countdown"></h1>
+		<h2 id="message"></h2>
+		<h2 id="my-score"></h2>
+		<h2 id="opponent-score"></h2>
+		<button id="ready" style="display: none;">Ready</button>
+		<div id="start-button-container">
+			<input type="text" name="SESSION ID" id="session-input">
+			<button id="join-private">Join Private</button>
+			<button id="host-private">Host Private</button>
+			<button id="join-random">Join Random</button>
+		</div>
+		<script type="text/javascript" src="client/snake.js"></script>
+		<script type="text/javascript" src="client/snake-part.js"></script>
+		<script type="text/javascript" src="client/tile.js"></script>
+		<script type="text/javascript" src="client/main.js"></script>
+	</body>
+</html>
